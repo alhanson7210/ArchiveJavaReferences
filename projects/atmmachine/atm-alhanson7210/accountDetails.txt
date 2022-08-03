@@ -1,0 +1,42 @@
+1. Read Chapter 3
+
+2. Program an Account class (20 points)
+
+WORK IN THIS GIT REPOSITORY: https://classroom.github.com/a/_hdms64c
+
+This class keeps track of everything going on with a bank account including the type of account; current balance, and account ID.
+
+Instance Fields in the Class
+int balance - current dollar amount in account
+String name - name of account, like "Doug's Savings Account"
+String type - type of account: Checking, Savings, etc.
+
+You should write a Constructor to create the account
+Account(String type, String name, int amount) - when this is called it sets the instance variables to the type, name, and amount passed to the Constructor
+
+Instance Methods
+void credit(int amount) - adds the amount passed to the account balance; nothing is returned
+boolean debit(int amount) - if subtracting the amount from the current account balance will give a negative number, then do nothing AND return false; otherwise deduct amount from account balance and return true.
+int getBalance() - returns current account balance
+
+Static method
+public static void main(java.lang.String[] args)
+This is used for testing the Account class by itself Create two accounts and then call for each Account each of the methods credit, debit, getBalance - printing out the Account information and the results after each step.
+
+Make sure that you add javadoc comments for the class and for each Method
+
+3. To Submit
+
+Take a screenshot of the first page of the Account javadoc and save it as Account.pdf.
+Take a screenshot of your console when you run the program and save it as AccountOutput.pdf
+Add Account.pdf, AccountOutput.pdf, and Account.java to git and then Commit and push to Github.
+
+
+Grading Criteria
+Out of 20 total points:
+* 3 its for setting up the 3 instance variables
+* 3 pts for each of the instance methods (9 points total)
+* 4 pts JavaDoc generated
+* 4 pts for the Main method and the output
+
+IMPORTANT: After you have pushed to github, please submit on Canvas a statement that you have made your commit (This is how we’ll know it’s done!) INCLUDE YOUR github user name in that statement.

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"animal","l":"AnimalKingdom"},{"p":"animal","l":"Bird"},{"p":"animal","l":"Chordata"},{"p":"animal","l":"Emu"},{"p":"animal","l":"Human"},{"p":"animal","l":"Kangaroo"},{"p":"<Unnamed>","l":"MainKingdom"},{"p":"animal","l":"Mammal"},{"p":"animal","l":"Robin"}]
